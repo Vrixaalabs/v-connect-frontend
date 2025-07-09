@@ -1,0 +1,65 @@
+/* src/app/settings.css */
+
+body {
+  background-color: #ffffff !important;
+  color: #1e3a8a; /* dark blue */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  color: #1e3a8a;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 1500px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1e3a8a;
+}
+
+select,
+input[type="checkbox"] {
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  accent-color: #2563eb; /* Tailwind's blue-600 */
+  margin-right: 8px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 12px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #1e40af; /* hover dark blue */
+}
