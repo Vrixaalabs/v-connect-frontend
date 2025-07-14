@@ -10,13 +10,13 @@ type SearchBarProps = {
 
 const SearchBar = ({ query, setQuery, onSearch }: SearchBarProps) => {
   return (
-    <div className="flex gap-3">
+    <div className="flex gap-3 mb-1">
       <Input
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="search for friends..."
       />
-      <Button onClick={onSearch}>Search</Button>
+      <Button onClick={onSearch} className="cursor-pointer">Search</Button>
     </div>
   );
 };

@@ -19,13 +19,13 @@ export function PendingRequests({ requests, onRespond }: PendingRequestsProps) {
           <div className="flex gap-2">
             <button
               onClick={() => onRespond(req.id, 'accept')}
-              className="bg-green-600 text-white px-3 py-1 rounded text-sm"
+              className="bg-green-600 text-white px-3 py-1 rounded text-sm cursor-pointer"
             >
               Accept
             </button>
             <button
               onClick={() => onRespond(req.id, 'decline')}
-              className="bg-red-500 text-white px-3 py-1 rounded text-sm"
+              className="bg-red-500 text-white px-3 py-1 rounded text-sm cursor-pointer"
             >
               Decline
             </button>
